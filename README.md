@@ -1,4 +1,4 @@
-# "MACHWERK" 
+# "MACHWERK"
 
 ## Formale Bedingungen physikalischer Beschreibbarkeit
 
