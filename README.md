@@ -121,3 +121,38 @@ measurement theory
 observer dependence  
 second order physics  
 meta-physics (formal, non-metaphysical)
+---
+
+## Struktur des Begriffsraums
+
+Dieses Repository bildet keinen linearen Text ab, sondern einen vernetzten
+Begriffsraum. Zentrale Konzepte sind über eigenständige Dateien erschlossen
+und miteinander referenziert.
+
+Zentrale Einstiegspunkte:
+
+- **U-Raum**  
+  Relationaler Vollraum ohne Raum, Zeit oder Metrik  
+  → `U_RAUM.md`
+
+- **Projektion**  
+  Abbildung relationaler Strukturen in beobachtbare Rechenräume  
+  → `PROJEKTION.md`
+
+- **Schwarzgrenze (Σ)**  
+  Verlust der Injektivität von Projektionen  
+  → `SCHWARZGRENZE.md`
+
+- **Δ₀ (Delta Null)**  
+  Grenzmarker nicht rückabbildbarer Reste  
+  → `DELTA_0.md`
+
+- **Three-Reaction Dynamics (TRD)**  
+  Minimaler relationaler Vergleichsmechanismus  
+  → `TRD.md`
+
+- **Index / Begriffsübersicht**  
+  → `INDEX.md`
+
+Dieses Netzwerk ist offen erweiterbar.  
+Neue Begriffe werden nicht „eingeführt“, sondern relational eingeordnet.
