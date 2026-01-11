@@ -87,12 +87,37 @@ Keine Bearbeitungen, keine Derivate.
 
 ## Suchbegriffe
 
+## Suchbegriffe
+
 theoretical physics  
+foundations of physics  
+formal physics  
+meta-theory physics  
 relational physics  
-projection  
+relational ontology  
+projection in physics  
 observability  
+limits of observability  
+non-invertible mappings  
+injectivity loss  
+information collapse  
 black boundary  
-injectivity  
-meta-theory  
+black horizon logic  
+formal boundary conditions  
 limits of physical models  
-formal consistency
+consistency of physical statements  
+model validity  
+model breakdown  
+quantum foundations  
+quantum gravity foundations  
+cosmology foundations  
+emergent space  
+emergent time  
+non-geometric physics  
+post-spacetime physics  
+process-based physics  
+relational dynamics  
+measurement theory  
+observer dependence  
+second order physics  
+meta-physics (formal, non-metaphysical)
