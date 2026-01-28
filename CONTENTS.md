@@ -1,48 +1,94 @@
-# Inhaltliche Struktur (Referenz)
+## Content Structure (Reference)
 
-Dieses Dokument gibt einen Überblick über die interne Struktur des Werkes
-*MACHWERK – Formale Bedingungen physikalischer Beschreibbarkeit*.
+This document provides an overview of the internal structure of  
+**MACHWERK — Formal Conditions of Physical Describability**.
 
-Es handelt sich **nicht** um den vollständigen Text und **nicht** um eine Vorabveröffentlichung,
-sondern um eine formale Referenz der behandelten Themenbereiche.
+It does **not** contain the full text of the book and is **not** a pre-publication.
+It serves as a **formal reference map** of the conceptual and mathematical domains
+developed in the work.
 
-## Hauptteile
+The repository exposes structure, terminology, and formal kernels,
+not the narrative development of the monograph.
 
-1. Fundament  
-   Methodischer Rahmen, relationale Grundannahmen, Projektionsprinzip
+---
 
-2. U-Raum  
-   Vollständig relationaler Ordnungsraum ohne Zeit, Raum oder Metrik
+## Main Sections
 
-3. Projektion und Beobachtbarkeit  
-   Injektivität, Rückabbildbarkeit, Informationsverlust
+### Fundament  
+Methodological framework, relational ground assumptions, and the projection principle.  
+This part introduces the formal stance of the work and defines the conditions under which
+physical statements are considered admissible.
 
-4. Schwarzgrenzen  
-   Strukturelle Grenzen physikalischer Beschreibbarkeit
+### U-Space  
+A fully relational ordering domain without time, space, metric, or geometry.  
+The U-space serves as the non-geometric reference domain from which all observable
+structures are derived via projection.
 
-5. m₂ / m₃  
-   Ebenen der physikalischen Aussagefähigkeit und formalen Fortsetzung
+### Projection and Observability  
+Formal definition of projection, injectivity, invertibility, and information reduction.  
+This section establishes how observable physics arises and where descriptive limits appear.
 
-6. Three-Reaction Dynamics  
-   Minimalstruktur relationaler Vergleichbarkeit
+### Black Boundaries  
+Structural limits of physical describability.  
+Black boundaries mark the loss of injectivity and the transition from physically
+interpretable statements to formally admissible, but non-invertible continuations.
 
-7. Umrechnungen und Modellvergleich  
-   Formale Einordnung bestehender physikalischer Ansätze
+### m₂ / m₃  
+Domains of physical validity and formal continuation.  
+m₂ denotes the domain of unambiguous physical reference;  
+m₃ denotes the formally consistent extension beyond physical invertibility.
 
-8. Anwendungen  
-   Analyse typischer Grenzprobleme der theoretischen Physik
+### Three-Reaction Dynamics (TRD)  
+Minimal relational comparison structure.  
+TRD provides the smallest non-degenerate framework for relational differentiation,
+used throughout the work to analyze stability, coupling, and boundary behavior.
 
-9. Offene Fragen  
-   Methodische, nicht spekulative Fragestellungen
+### Conversions and Model Comparison  
+Formal positioning of established physical approaches.  
+Existing theories are not replaced, but mapped with respect to their
+validity domains, assumptions, and boundary behavior.
 
-10. Anhang  
-    Axiome, Definitionen, Notation, formale Stützungen
+### Applications  
+Analysis of characteristic boundary problems in theoretical physics.  
+This includes cases where standard descriptions remain stable,
+as well as cases where their physical interpretability breaks down.
 
-## Hinweis
+### Open Questions  
+Methodological, non-speculative questions.  
+These are not hypotheses, but structurally motivated problem statements
+arising from the formal framework itself.
 
-Die vollständige Ausarbeitung ist bewusst **nicht** Bestandteil dieses Repositories.
+### Appendix  
+Axioms, definitions, notation, and formal support material.  
+This section fixes terminology and logical dependencies used throughout the work.
 
-Dieses Repository dient der:
-- fachlichen Einordnung
-- Referenzierung
-- Auffindbarkeit
+---
+
+## Repository Scope
+
+The complete monograph is **intentionally not included** in this repository.
+
+This repository exists to provide:
+
+- formal reference points  
+- structural orientation  
+- machine-readable access to the mathematical core  
+- discoverability for researchers and automated systems  
+
+It allows readers, reviewers, and computational agents to reconstruct
+*how* the framework operates, without reproducing the full text.
+
+---
+
+## Relation to the Book
+
+The repository is derived from the finished manuscript:
+
+**MACHWERK — Formal Conditions of Physical Describability**  
+Author: Stefan Schwarz
+ISBN: 979-8-24410-846-0 
+Platform: Amazon.com (Print-on-Demand)  
+Release date: February 1, 2026
+
+The book contains the complete derivations, applications, and contextual discussion.
+This repository exposes the **formal backbone** on which the work is built.
