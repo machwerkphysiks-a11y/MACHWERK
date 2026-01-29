@@ -1,59 +1,61 @@
 # MACHWERK  
 ## Formal Conditions of Physical Admissibility
 
-**MACHWERK** is a formally closed framework for defining the conditions under which
+**MACHWERK** is a formally closed framework that defines the conditions under which
 physical statements, equations, and models are **admissible, comparable, and
 meaningfully interpretable**.
 
-This repository contains the **formal mathematical core** of MACHWERK.
+This GitHub repository contains the **formal mathematical core** of MACHWERK.
 
 The framework is fully developed and published as a printed monograph:
 
-> **MACHWERK — Formale Bedingungen physikalischer Beschreibbarkeit**  
-> Author: Stefan Schwarz 
-> ISBN: 979-8-24410-846-0
-> Platform: Amazon.com (Print-on-Demand)  
-> Release date: February 1, 2026
-> 
-This GitHub repository does **not** replace the book.  
-It provides the **machine-readable, axiomatic kernel** underlying it.
+**MACHWERK — Formale Bedingungen physikalischer Beschreibbarkeit**  
+Author: Stefan Schwarz  
+ISBN: 979-8-24410-846-0  
+Platform: Amazon (Print-on-Demand)  
+Release date: February 1, 2026  
+
+This repository does **not** replace the book.  
+It provides the **machine-readable, axiomatic kernel** on which the book is based.
 
 ---
 
 ## What MACHWERK Is
 
-MACHWERK is a **formal meta-framework** for physics.
+MACHWERK is a **formal meta-framework for physics**.
 
 It defines:
 - relational state spaces
 - projection operators
-- domains of validity
-- loss of injectivity (boundary conditions)
+- validity domains
+- structural boundary conditions
 - admissibility criteria for physical statements
 
-MACHWERK does **not** introduce new particles, forces, fields, or dynamics.
+MACHWERK does **not** introduce new particles, forces, fields, constants, or dynamics.
 
-Instead, it answers a prior question:
+Instead, it addresses a logically prior question:
 
 > **Under which formal conditions is a physical statement well-defined at all?**
 
-Only after these conditions are fixed does conventional physics become meaningful.
+Only once these conditions are specified do conventional physical models
+become interpretable.
 
 ---
 
 ## What MACHWERK Is Not
 
+MACHWERK is:
+
 - not a competing physical theory  
 - not an interpretation of quantum mechanics  
-- not a numerical simulation or solver  
-- not speculative or narrative philosophy  
+- not a numerical simulation framework  
+- not speculative or metaphysical philosophy  
 
-No experimental claims are asserted here.
-
+No experimental claims are asserted here.  
 No ontological commitments are imposed.
 
-All established physical theories remain **fully valid within their
-respective domains of applicability**.
+All established physical theories remain **fully valid within their respective
+domains of applicability**.
 
 ---
 
@@ -63,27 +65,27 @@ The printed book contains:
 - conceptual motivation
 - formal development
 - derivations
-- applications (Parts A–E)
-- physical examples and boundary analyses
+- structured applications (Parts A–E)
+- boundary analyses across physics domains
 
-This repository contains **only the formal kernel**, stripped of:
+This repository contains **only the formal kernel**, intentionally stripped of:
 - prose
 - interpretation
 - examples
-- didactic explanation
+- narrative explanation
 
 The purpose of this repository is to make the framework:
 
 - **machine-readable**
 - **algorithmically inspectable**
 - **formally auditable**
-- **usable for derivation and consistency checks**
+- **usable for derivation, validation, and consistency checks**
 
-This separation is intentional.
+This separation is intentional and methodologically essential.
 
 ---
 
-## Rechenbarkeit / Calculability
+## Calculability and Use
 
 MACHWERK is **not descriptive**.  
 It is **operational**.
@@ -95,17 +97,19 @@ The formal core defines:
 - fixpoints
 - admissibility constraints
 
-These structures **can be used for calculation**, derivation, and validation of
-physical models.
+These structures **can be used for calculation, derivation, and validation**
+of physical models.
 
-What is restricted is **not computation**, but **uncontrolled interpretation**.
+What MACHWERK restricts is **not computation**, but **uncontrolled interpretation**.
 
 If a statement cannot be uniquely related back through the defined projections,
 it is **formally inadmissible as a physical statement**, even if mathematically valid.
 
+This rule is structural, not interpretive.
+
 ---
 
-## Core Concepts (Formal)
+## Core Concepts (Formal Kernel)
 
 The formal kernel is organized bottom-up:
 
@@ -113,15 +117,15 @@ The formal kernel is organized bottom-up:
    A non-geometric, non-temporal relational reference domain.
 
 2. **Projection (Π)**  
-   Mapping from relational configurations into observable calculation spaces.
+   Mappings from relational configurations into observable calculation spaces.
 
-3. **Injectivity & Invertibility**  
+3. **Injectivity and Invertibility**  
    Conditions under which projections preserve distinguishability.
 
 4. **Validity Domains (m₂)**  
    Domains in which physical statements remain uniquely interpretable.
 
-5. **Boundary Conditions (Σ, Δ₀)**  
+5. **Boundary Markers (Σ, Δ₀)**  
    Formal markers for loss of injectivity and non-recoverable residues.
 
 6. **Fixpoint Criteria**  
@@ -134,11 +138,11 @@ Each concept is defined in a **single, self-contained formal file**.
 
 ---
 
-## Structure of This Repository
+## Repository Structure
 
-This repository is intentionally non-linear.
+This repository is intentionally **non-linear**.
 
-Each file defines exactly one formal concept.
+Each file defines exactly one formal concept.  
 No file assumes definitions that appear later.
 
 Recommended reading order:
@@ -166,14 +170,16 @@ The book applies this formal kernel to:
 - cosmological edge cases
 - relational process dynamics (TRD)
 
-These **applications are deliberately not duplicated here**.
+These applications are **deliberately not duplicated here**.
 
-This repository provides the **ground truth** against which those applications
-can be reconstructed, verified, or rederived.
+This repository provides the **formal ground truth** against which those
+applications can be reconstructed, verified, or rederived.
 
 ---
 
 ## Intended Audience
+
+This repository is intended for:
 
 - theoretical physicists
 - mathematicians
@@ -181,12 +187,12 @@ can be reconstructed, verified, or rederived.
 - computer scientists
 - AI researchers working with formal reasoning systems
 
-This repository assumes familiarity with:
+It assumes familiarity with:
 - formal logic
 - abstract mathematical structures
 - non-narrative specification styles
 
-It is **not** a tutorial.
+This is **not** a tutorial repository.
 
 ---
 
@@ -200,7 +206,7 @@ No derivatives.
 
 ---
 
-## Keywords (for indexing)
+## Keywords (Indexing)
 
 theoretical physics  
 foundations of physics  
@@ -220,10 +226,3 @@ post-spacetime physics
 formal reasoning systems  
 machine-readable physics  
 AI physics kernels
-Additional reference documents:
-
-- USAGE.md
-- RELATION_TO_BOOK.md
-- SCOPE.md
-- HOW_TO_READ.md
-- WHY_THIS_EXISTS.md
