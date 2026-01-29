@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite the associated monograph."
+type: book
+title: "MACHWERK — Formale Bedingungen physikalischer Beschreibbarkeit"
+authors:
+  - family-names: Schwarz
+    given-names: Stefan
+isbn: "979-8-24410-846-0"
+date-released: 2026-02-01
+publisher: "Amazon Print-on-Demand"
+url: "https://github.com/Machwerkphysik-a11y/machwerk-relational-physics"
